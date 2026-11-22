@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Presidential Honors College Scholarship",
+    "provider": "Palm Beach State College Honors College",
+    "description": "Two-year award for graduating high school seniors entering the PBSC Honors College. Funds are available in fall, spring and summer.",
+    "amount": 6000,
+    "award_years": 2,
+    "covers": ["in-state tuition", "registration fees", "books", "educational expenses"],
+    "deadline": null,
+    "url": "https://www.pbsc.edu/financial-aid/scholarships.php",
+    "renewable": true,
+    "renewal_requirements": [
+      "Maintain 3.5 cumulative GPA.",
+      "Continue in a PBSC bachelor's program."
+    ],
+    "eligibility": {
+      "education_levels": ["high_school"],
+      "class_standing": ["senior"],
+      "states": [],
+      "institutions": ["Palm Beach State College"],
+      "min_gpa": 3.5,
+      "min_credits": 12,
+      "fields_of_study": [],
+      "requires_financial_need": false,
+      "requires_fafsa": false,
+      "other_requirements": [
+        "College-ready test scores.",
+        "Participate in Honors College Gold Track.",
+        "Enroll in the fall term following high school graduation.",
+        "Complete mandatory Honors College Orientation.",
+        "Cannot be combined with other Honors College scholarships."
+      ]
+    },
+    "tags": ["school-specific", "school", "no-essay"]
+  },
+  {
+    "name": "Lynn University Grant",
+    "provider": "Lynn University",
+    "description": "Need-based grant for full-time upper-class day undergraduates at Lynn University. Open to new and returning students.",
+    "amount": 1000,
+    "award_years": 1,
+    "covers": [],
+    "deadline": null,
+    "url": "https://www.lynn.edu/admission/tuition-aid/financial-aid/lynn-university-grant",
+    "renewable": true,
+    "renewal_requirements": [
+      "Maintain a 2.75 GPA each year."
+    ],
+    "eligibility": {
+      "education_levels": ["undergraduate"],
+      "class_standing": ["junior", "senior"],
+      "states": [],
+      "institutions": ["Lynn University"],
+      "min_gpa": null,
+      "min_credits": 12,
+      "fields_of_study": [],
+      "requires_financial_need": true,
+      "requires_fafsa": true,
+      "other_requirements": [
+        "Day undergraduate division only.",
+        "Not available to international students."
+      ]
+    },
+    "tags": ["school-specific", "school", "no-essay"]
+  },
+  {
+    "name": "Kevin and Michelle Clark Scholarship",
+    "provider": "Florida Atlantic University Christine E. Lynn College of Nursing",
+    "description": "Fulltime FAU Nursing student in good academic standing pursuing a nursing degree. Must be 1st generation college student in their freshman year of college.",
+    "amount": null,
+    "award_years": 1,
+    "covers": [],
+    "deadline": "2027-01-24",
+    "url": "https://www.fau.edu/nursing/resources/scholarships/",
+    "renewable": false,
+    "renewal_requirements": [],
+    "eligibility": {
+      "education_levels": ["undergraduate"],
+      "class_standing": ["freshman"],
+      "states": [],
+      "institutions": ["Florida Atlantic University"],
+      "min_gpa": 2.0,
+      "min_credits": 12,
+      "fields_of_study": ["nursing"],
+      "requires_financial_need": false,
+      "requires_fafsa": false,
+      "other_requirements": [
+        "Resident of the U.S.",
+        "Good academic standing.",
+        "First-generation college student."
+      ]
+    },
+    "tags": ["school-specific", "school", "first-generation", "amount-varies", "portal"]
+  },
+  {
+    "name": "Student Success Grant",
+    "provider": "South University",
+    "description": "For students returning to South University to finish a degree they didn't complete. Up to $3,375 for full-time students; capped at $1,625 part-time (undergraduate 6-11 credits, graduate 4-7 credits).",
+    "amount": 1625,
+    "award_years": 1,
+    "covers": ["balance owed to the university"],
+    "deadline": "2027-12-31",
+    "url": "https://www.southuniversity.edu/paying-for-college/grants",
+    "renewable": false,
+    "renewal_requirements": [],
+    "eligibility": {
+      "education_levels": ["undergraduate", "graduate"],
+      "class_standing": [],
+      "states": [],
+      "institutions": ["South University"],
+      "min_gpa": null,
+      "min_credits": 4,
+      "fields_of_study": [],
+      "requires_financial_need": false,
+      "requires_fafsa": false,
+      "other_requirements": [
+        "Returning South University student who previously did not complete their degree program.",
+        "Must begin classes between August 13, 2024 and December 31, 2027.",
+        "Undergraduates need at least 6 credits per term.",
+        "Not available to Anesthesia Science, Physician Assistant, or Pharmacy students.",
+        "See the Student Success Grant Memorandum of Understanding for full conditions."
+      ]
+    },
+    "tags": ["school-specific", "school", "amount-varies", "niche"]
+  }
+]
