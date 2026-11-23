@@ -117,8 +117,8 @@ Each profile is built to show a different matcher path:
 | Andre Baptiste | Full match (Lynn University Grant) |
 
 ## 📝 To Do
-- [] Build web app in Streamlit
-- [] Compile scholarship database & discovery system
+- [ ] Build web app in Streamlit
+- [ ] Compile scholarship database & discovery system
 
 ## ⚠️ Known Limitations
 
