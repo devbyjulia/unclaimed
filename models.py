@@ -33,6 +33,19 @@ class ClassStanding(str, Enum):
     SENIOR = "senior"
 
 
+class Tag(str, Enum):
+    """Approved scholarship tags."""
+
+    SCHOOL_SPECIFIC = "school-specific"
+    LOCAL = "local"
+    NO_ESSAY = "no-essay"
+    ROLLING = "rolling"
+    FIRST_GENERATION = "first-generation"
+    AMOUNT_VARIES = "amount-varies"
+    NICHE = "niche"
+    PORTAL = "portal"
+
+
 class Eligibility(BaseModel):
     """Who can apply. Empty / None = open to everyone on that criterion."""
 
@@ -63,7 +76,7 @@ class Scholarship(BaseModel):
     renewable: bool = False
     renewal_requirements: list[str] = []  # e.g. ["Maintain 3.5 cumulative GPA"]
     eligibility: Eligibility = Eligibility()
-    tags: list[str] = []                # e.g. ["local", "no-essay", "rolling"]
+    tags: list[Tag] = []                # e.g. ["local", "no-essay", "rolling"]
 
 
 class StudentProfile(BaseModel):
