@@ -31,7 +31,7 @@
         "Cannot be combined with other Honors College scholarships."
       ]
     },
-    "tags": ["school-specific", "school", "no-essay"]
+    "tags": ["school-specific", "no-essay"]
   },
   {
     "name": "Lynn University Grant",
@@ -61,7 +61,7 @@
         "Not available to international students."
       ]
     },
-    "tags": ["school-specific", "school", "no-essay"]
+    "tags": ["school-specific", "no-essay"]
   },
   {
     "name": "Kevin and Michelle Clark Scholarship",
@@ -90,7 +90,7 @@
         "First-generation college student."
       ]
     },
-    "tags": ["school-specific", "school", "first-generation", "amount-varies", "portal"]
+    "tags": ["school-specific", "first-generation", "amount-varies", "portal"]
   },
   {
     "name": "Student Success Grant",
@@ -121,6 +121,6 @@
         "See the Student Success Grant Memorandum of Understanding for full conditions."
       ]
     },
-    "tags": ["school-specific", "school", "amount-varies", "niche"]
+    "tags": ["school-specific", "amount-varies", "niche"]
   }
 ]
