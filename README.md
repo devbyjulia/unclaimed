@@ -117,8 +117,8 @@ Each profile is built to show a different matcher path:
 | Andre Baptiste | Full match (Lynn University Grant) |
 
 ## 📝 To Do
-- [ ] Build web app in Streamlit
-- [ ] Compile scholarship database & discovery system
+- [ ] Build web app in Streamlit (in progress)
+- [ ] Compile scholarship database (in progress)
 
 ## ⚠️ Known Limitations
 
@@ -127,7 +127,8 @@ Each profile is built to show a different matcher path:
   in `other_requirements`.
 - **Award ranges use the low end** for ranking, so a variable award may rank
   lower than what a particular student would receive.
-- **Tags aren't validated** against the approved list. A typo will load fine
-  but drop the scholarship from tag filters.
+- **One invalid entry blocks the whole load.** A bad tag (or any other
+  validation error) in `scholarships.json` stops all scholarships from
+  loading until it's fixed.
 - **No excluded fields of study.** Programs a scholarship excludes are listed
   in `other_requirements` and aren't checked.
