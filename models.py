@@ -19,7 +19,7 @@ NonEmptyStr = Annotated[str, StringConstraints(strip_whitespace=True, min_length
 
 
 class EducationLevel(str, Enum):
-    HIGH_SCHOOL = "high_school"
+    HIGH_SCHOOL = "high school"
     UNDERGRADUATE = "undergraduate"
     GRADUATE = "graduate"
 
