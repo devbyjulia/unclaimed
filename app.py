@@ -5,7 +5,7 @@ from models import Scholarship, StudentProfile
 
 
 # ===== Main Page =====
-st.title("🎓 Unclaimed")
+st.title(":material/school: Unclaimed")
 st.write("Find hidden scholarships for high school, undergraduate, and graduate students. \
          \nThis demo includes configurable student profiles for testing.")
 
@@ -16,7 +16,7 @@ st.header("Partial Matches")
 
 # ===== Sidebar =====
 # Load profiles in the sidebar
-sidebar_header = st.sidebar.header("Demo Profiles")
+sidebar_header = st.sidebar.header(":material/person: Demo Profiles")
 
 profiles = load_profiles()
 profile_names = [p.name for p in profiles]

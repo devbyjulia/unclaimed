@@ -1,0 +1,22 @@
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family = "DM Sans Regular"
+url = "app/static/fonts/DMSans/DMSans-Regular.ttf"
+style = "normal"
+weight = 400
+
+[[theme.fontFaces]]
+family = "DM Sans Semibold"
+url = "app/static/fonts/DMSans/DMSans-SemiBold.ttf"
+style = "bold"
+weight = 600
+
+[theme]
+backgroundColor = "#F5F1E9"
+secondaryBackgroundColor = "#FFFCF7"
+primaryColor = "#A3AD96"
+textColor = "#493F35"
+font = "DM Sans Regular"
+headingFont = "DM Sans Semibold"
